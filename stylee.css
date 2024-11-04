@@ -190,6 +190,7 @@ article h2 {
     width: 60%;
     height: auto;
     display: block;
+    margin-bottom: 10px;
 }
 
 .image-caption {
@@ -243,27 +244,7 @@ h3 {
     border-radius: 0 10px 10px 0;
   }
   
-  /*h4:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f041";
-    display: inline-block;
-    line-height: 40px;
-    position: absolute;
-    padding: 0em;
-    color: white;
-    background: #ff6363;
-    font-weight: 900;
-    width: 40px;
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-    left: -1.35em;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    border-radius: 50%;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.29);
-  }*/
+  
 
 
 
@@ -383,50 +364,8 @@ img {
     width: 328px;
     height: 450px;
     display: block;
-    margin: 10px 1080px;
-}
-/*.fixed-top-image1 {
-    width: 328px;
-    height: 450px;
-    display: block;
-    margin: 80px 500px;
-}
-
-.fixed-top-image2 {
-    width: 328px;
-    height: 450px;
-    display: block;
-    margin: 180px 700px;
-}
-.fixed-top-image3 {
-    width: 328px;
-    height: 450px;
-    display: block;
-    margin: 0px 900px;
-}
-.fixed-top-image4 {
-    width: 328px;
-    height: 450px;
-    display: block;
-    margin: 300px 250px;
-}*/
-/* 画像コンテナと×ボタンのスタイル */
-/*.image-container {
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-}*/
-/* 広告バナー部分のスタイル */
-/*.ad-banner {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px;
-    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 /* 広告ラベルのスタイル */
@@ -456,85 +395,19 @@ img {
     z-index: 10; /* 画像の上にボタンを表示するためにz-indexを設定 */
 }
 .close-btnx {
-    position: absolute;
-    background-color: white;
-    color: blue;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    z-index: 10; /* 画像の上にボタンを表示するためにz-indexを設定 */
-    top: 10px;
-    right: 0px;
+  position: absolute;
+  top: 35px;      /* 画像の上端からの距離を指定 */
+  right: 15px;    /* 画像の右端からの距離を指定 */
+  background-color: white;
+  color: blue;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 10;
 }
-.close-btnx1 {
-    position: absolute;
-    background-color: white;
-    color: blue;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    z-index: 10; /* 画像の上にボタンを表示するためにz-indexを設定 */
-    top: 90px;
-    right: 580px;
-}
-.close-btnx2 {
-    position: absolute;
-    background-color: white;
-    color: blue;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    z-index: 10; /* 画像の上にボタンを表示するためにz-indexを設定 */
-    top: 180px;
-    right: 380px;
-}
-.close-btnx3 {
-    position: absolute;
-    background-color: white;
-    color: blue;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    z-index: 10; /* 画像の上にボタンを表示するためにz-indexを設定 */
-    top: 0px;
-    right: 180px;
-}
-.close-btnx4 {
-    position: absolute;
-    background-color: white;
-    color: blue;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    z-index: 10; /* 画像の上にボタンを表示するためにz-indexを設定 */
-    top: 300px;
-    right: 830px;
-}
+
 .close-btn1 {
     position: absolute;
     top: 10px;
@@ -576,24 +449,6 @@ img {
 .close-btnx:hover {
     background-color: darkred;
 }
-.close-btnx1:hover {
-    background-color: darkred;
-}
-.close-btnx2:hover {
-    background-color: darkred;
-}
-.close-btnx3:hover {
-    background-color: darkred;
-}
-.close-btnx4:hover {
-    background-color: darkred;
-}
-.close-btn1:hover {
-    background-color: darkred;
-}
-.close-btn2:hover {
-    background-color: darkred;
-}
 
 /* その他のスタイル */
 .container {
@@ -626,7 +481,7 @@ img {
 
 .fixed-top-image {
     animation-name: fadeIn1s;
-    animation-delay: 2s;
+    animation-delay: 4s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transform: translateY(-50px);
@@ -642,7 +497,7 @@ img {
 }
 .close-btnx {
     animation-name: fadeIn1s;
-    animation-delay: 2s;
+    animation-delay: 4s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transform: translateY(-50px);
@@ -658,7 +513,7 @@ img {
 }
 .button-wrap {
     animation-name: fadeIn1s;
-    animation-delay: 2s;
+    animation-delay: 4s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transform: translateY(-50px);
@@ -674,5 +529,7 @@ img {
 }
 
   
+
+
 
 
